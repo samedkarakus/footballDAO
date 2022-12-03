@@ -1,0 +1,13 @@
+.TokenomicsPart{
+    height: 150%;
+    background-color: #0047d6;
+    background-image: url(TokenomicsBg.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+}
+
+.TokenomicsContainer{
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,22 @@
+.CommunityPart{
+    height: 50%;
+    background-color: #002c83;
+    background-image: url(CommunityBg.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+}
+
+.CommunityContainer{
+    height: 30%;
+    width: 100%;
+}
+
+.Social{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Social img{
+    width: 80px;
+}

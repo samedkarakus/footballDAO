@@ -1,0 +1,37 @@
+#navbarNavAltMarkup{
+    justify-content: space-between;
+}
+
+#main-body-bg{
+    background-image: url(main-body-bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 88%;
+}
+
+.navbar{
+    font-family: 'Poppins';
+    font-size: 13px;
+    height: 12%;
+}
+
+.navbar-nav *{
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    text-align: center;
+}
+
+.container-body{
+    height: 50%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

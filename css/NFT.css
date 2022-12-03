@@ -1,0 +1,17 @@
+.NFTPart{
+    height: 150%;
+    background-color: #0047d6;
+    background-image: url(gameBg.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+}
+
+.NFTContainer{
+    height: 100%;
+    width: 100%;
+}
+
+.NFTCards *{
+    margin-top: 5%;
+}

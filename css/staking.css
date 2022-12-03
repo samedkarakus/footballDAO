@@ -1,0 +1,13 @@
+.StakingPart{
+    height: 100%;
+    background-color: #0047d6;
+    background-image: url(gameBg.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+}
+
+.StakingContainer{
+    height: 100%;
+    width: 100%;
+}

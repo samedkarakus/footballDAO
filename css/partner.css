@@ -1,0 +1,24 @@
+.PartnerPart{
+    height: 100%;
+    background-color: #0047d6;
+    background-image: url(PartnerBg.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+}
+
+.PartnerContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.PartnerContainer *{
+    display: flex;
+    flex-direction: column;
+}
+
+.Partners img{
+    display: flex;
+    justify-content: flex-start;
+}

@@ -1,0 +1,35 @@
+.RoadMapPart{
+    height: 100%;
+    background-color: #0047d6;
+    background-image: url(RoadMapBg.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+}
+
+.RoadMapContainer{
+    height: 100%;
+    width: 100%;
+}
+
+.RoadMapDetails{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.RoadMapWrapper{
+    max-height: 400px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.RoadMapWrapper::-webkit-scrollbar{
+    display: none;
+}
+
+.imageDetails{
+    width: 500px;
+}
