@@ -37,38 +37,38 @@
 }
 
 .navbar-toggler{
-    border: none;
+    border: none !important;
 }
 
 @media only screen and (min-width: 991.5px) {
     .navbar-brand{
-        display: none;
+        display: none !important;
     }
     .bodyTextTitleMobile{
-        display: none;
+        display: none !important;
     }
     .footballDaoHorizantolMobile{
-        display: none;
+        display: none !important;
     }
 }
 
 @media only screen and (max-width: 991.5px) {
     .logo-middle{
-        display: none;
+        display: none !important;
     }
     .navbar-brand img{
-        height: 6.5vw;
+        height: 6.5vw !important;
     }
     .nav-item{
-        height: 50px;
+        height: 50px !important;
     }
     .nav-link{
-        font-size: 25px;
+        font-size: 25px !important;
     }
     .bodyTextTitle{
-        display: none;
+        display: none !important;
     }
     .footballDaoHorizantol{
-        display: none;
+        display: none !important;
     }
 }
