@@ -22,3 +22,28 @@
 .gameContent{
     margin-top: 5%;
 }
+
+.gameAllContent *{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 991.5px) {
+    
+}
+
+@media only screen and (max-width: 991.5px) {
+    .gameCharacter{
+        display: none;
+    }
+    .gameContent{
+        width: 100%;
+    }
+    .gameAllContent *{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        margin-right: 80px;
+    }
+}

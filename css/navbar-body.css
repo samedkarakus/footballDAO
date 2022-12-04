@@ -18,7 +18,7 @@
     height: 12%;
 }
 
-.navbar-nav *{
+.nav-link{
     margin-right: 2.5rem;
     margin-left: 2.5rem;
     text-align: center;
@@ -34,4 +34,41 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+@media only screen and (min-width: 991.5px) {
+    .navbar-brand{
+        display: none;
+    }
+    .bodyTextTitleMobile{
+        display: none;
+    }
+    .footballDaoHorizantolMobile{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991.5px) {
+    .logo-middle{
+        display: none;
+    }
+    .navbar-brand img{
+        height: 6.5vw;
+    }
+    .nav-item{
+        height: 50px;
+    }
+    .nav-link{
+        font-size: 25px;
+    }
+    .bodyTextTitle{
+        display: none;
+    }
+    .footballDaoHorizantol{
+        display: none;
+    }
 }
